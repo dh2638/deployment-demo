@@ -140,5 +140,5 @@ def training_page2():
 def awsbackeddata():
     return render_template("awsbackeddata.html")
 
-app.run(port=5000)
+app.run()
 
