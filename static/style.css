@@ -1,0 +1,56 @@
+#main-header
+{
+    color: white;
+    font-size: 45px;
+    font-family: "Century Gothic";
+    background: black;
+    text-align: center;
+    padding: 20px;
+    /*border-color: darkblue;*/
+    /*border-width: 5px;*/
+    /*border-style: solid;*/
+}
+
+#menu
+{
+    text-align: center;
+    font-size: 45px;
+    font-family: "Century Gothic";
+    color: white;
+}
+
+/*
+Borders have 3 aspects:
+width
+color
+style
+*/
+
+body {
+    /*background: gray;*/
+    background: url(https://i.kinja-img.com/gawker-media/image/upload/s--eXBjjH48--/c_fill,fl_progressive,g_center,h_450,q_80,w_800/18l08i35huhkxjpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+img {
+    border-color: red;
+    border-width: 3px;
+    }
+
+
+/*NOTE ABOUT COLORS */
+/* COLORS COME IN THE FOLLOWING FORMATS - HEX; RGB; HSL:
+
+HEX syntax: #11816554
+ #76A536
+RGB syntax: rgb(118, 165, 54)
+ 118, 165, 54
+HSL
+ 85, 67%, 43%
+
+ */
+
+
+
+                                                                                                   /**/

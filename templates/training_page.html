@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Training Page</title>
+    <link rel="stylesheet" type="test/css" href="{{url_for('static', filename='style.css')}}">
+</head>
+
+
+<img src="/Users/HarveySFinkelstein/Desktop/Wall-and-white-cubes-482788493_4000x2600copy3.jpeg"> </img>
+<h1> THIS IS THE TRAINING PAGE: WHERE I TEST RANDOM WEBDEV CODE </h1>
+<p> <a href="/"> BACK TO HOME PAGE </a> </p>
+
+
+<h2> testing h2 </h2>
+                                    <h6> testing h6 </h6>
+
+<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only <strong>five centuries, but also the leap into </strong> electronic typesetting, remaining
+    essentially unchanged. It was popularised in the 1960s with the release of Letraset
+    sheets containing Lorem Ipsum passages, <b>and more recently</b>
+    with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+
+<p>  dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only f</p>
+
+<!--ordered list with list elements-->
+<ol>
+    <li> #1 element of ordered list </li>
+    <li> #2 element of ordered list </li>
+    <li> #3 element of ordered list </li>
+</ol>
+
+<!--unordered list with list elements-->
+<ul>
+    <li> #1 element of ordered list </li>
+    <li> #2 element of ordered list </li>
+    <li> #3 element of ordered list </li>
+</ul>
+
+<!--nested unordered list with list elements-->
+<ul>
+    <li> <b>#1 element of ordered list </b> </li>
+    <ul>
+        <li> test </li>
+    </ul>
+    <li> <em>#2 element of ordered list </em> </li>
+    <li> #3 element of ordered list </li>
+</ul>
+
+<!-- testing div = newline container span = inline container -->
+<div>
+<h1> testing div </h1>
+<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release of
+    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+    software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+</div>
+
+<!--attributes-->
+<img src="http://www.boxingnewsonline.net/wordpress/wp-content/uploads/2015/12/Mayweather.jpg">
+<!--anchor tah: how we make links to other pages, websites, etc -->
+<p> <a href="google.com"> go to google website </a> </p>
+
+<table border="1">
+<tr>
+    <td> <a href="/">  test  </a> </td>
+    <td> test </td>
+    <td> other test </td>
+</tr>
+    <tr>
+        <td> <a href="/">  test  </a> </td>
+        <td> test </td>
+        <td> other test </td>
+        <td> other test </td>
+        <td> other test </td>
+        <td> other test </td>
+    </tr>
+</table>
+
+                                        <!--inputs to create forms-->
+<h1> LOGIN </h1>
+<input type="text" placeholder="username">
+<input type="password" placeholder="password">
+<button> SUBMIT </button>
+<input type="submit">
+<!--<input type="color">-->
+<!--<input type="radio">-->
+<!--<input type="text">-->
+<!--<input type="password">-->
+
+                                        <!--CREATING FORMS -->
+
+<!--action = where the forms sends data to -->
+<!--method  what HTTP method (i.e get; post)-->
+
+<form action="https://www.udemy.com" method="GET">
+    <h1> LOGIN </h1>
+    <input name="username" type="text" placeholder="username">
+    <input name="password" type="password" placeholder="password">
+    <button> SUBMIT </button>
+    <input type="submit">
+    <!--by adding name= we name our data so that we can then retrieve them later-->
+</form>
+
+                                            <!--CREATING LABEL TAGS-->
+
+<h1> LOGIN </h1>
+
+<form action="https://www.udemy.com" method="GET">
+    <label>
+        username:
+        <input name="username" type="text" placeholder="username">
+    </label>
+
+    <label>
+        password:
+        <input name="password" type="password" placeholder="password">
+    </label>
+
+    <input type="submit">
+</form>
+
+<!--Other example for having a label for every input-->
+
+<h1> LOGIN </h1>
+
+<form action="https://www.udemy.com" method="GET">
+    <label for="username"> username: </label>
+    <input id="username" type="text" placeholder="username">
+
+
+    <label for="password"> password: </label>
+    <input id="password" type="password" placeholder="password">
+
+    <input type="submit">
+
+    <select>
+        <option> red </option>
+        <option> green </option>
+        <option> yellow </option>
+        <option> purple </option>
+        <option> pink </option>
+    </select>
+</form>
+
+<form>
+<select>
+        <option> red </option>
+        <option> green </option>
+        <option> yellow </option>
+        <option> purple </option>
+        <option> pink </option>
+    </select>
+
+    <button> go </button>
+</form>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
