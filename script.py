@@ -140,5 +140,6 @@ def training_page2():
 def awsbackeddata():
     return render_template("awsbackeddata.html")
 
-app.run()
+if __name__=="__main__":
+    app.run(debug=True)
 
