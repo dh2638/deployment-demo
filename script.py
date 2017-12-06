@@ -1,72 +1,7 @@
-# '''
-#                                             PROJECT DESCRIPTION
-#
-# Owner: Dan Herbatschek
-# Start Date: 09/09/17
-# Linked Website/Domain/Project title: My Brain Is Open; mybrainisopen.com; danherbatschek.com
-# My Brain is Open
-# by Dan Herbatschek
-#
-#
-#                             website creation with python flask micro-framework
-#
-# - Front-end:
-#  - add html content
-#  - add css
-#  - add javascript functionality and design
-#  - make user of bootstrap and jquery
-#  - launch site live and learn about deployment
-#
-# - Back-end:
-#  - build REST API with Flask
-#  - store resources in SQL database
-#  - make use of NoSQL Database
-#  - create data pipeline
-#
-# - website sections and goals:
-#   - About section that introduces me and the website to the world noting that the site is meant to be:
-#             - a public repository for my projects
-#             - a platform to share my thoughts
-#             - a learning method
-#             - a display of my thought process
-#             - user data collection
-#   - personal section with writing samples
-#   - snapshots that showcase the website's appearance in progress
-#   - Articles of interest written by others
-#   - Articles of interest written by me
-#   - build and connect web-scraper of real estate data
-#   - market research with real estate data to answer question about project
-#   - present data story
-#   - build blockchain real estate service
-#   - financial data analysis - using Bokeh
-#   - algorithmic trading platform
-#   - banking / financial transaction website
-#   - investment management platform
-#   - Have a section that features a map of tech / software engineering / data science landscape
-#
-# - Sections
-#   - ABOUT
-#   - JOURNEY IN THE LIFE OF AN ASPIRING DATA SCIENTIST
-#   - MAPPING THE SOFTWARE ENGINEERING LANDSCAPE
-#   - WEBSITE HISTORY
-#   - PROJECTS IN PROGRESS
-#   - DH PORTFOLIO
-#   - DATA SCIENCE
-#   - MATHEMATICS
-#   - BLOCKCHAIN TECHNOLOGIES
-#   - HISTORY AND DATA SCIENCE
-#   - INTELLECTUAL HISTORY
-#   - HISTORY OF SCIENCE AND MATHEMATICS
-#   - READING RECOMMENDATIONS
-#   - TALKS
-#
-# - Ideas
-#   - add quotes in each section or even a quotes sections
-#
-# '''
 
+# Dan Herbatschek
+# website creation with python flask micro-framework
 
- # notes
 
 from flask import Flask, render_template
 
